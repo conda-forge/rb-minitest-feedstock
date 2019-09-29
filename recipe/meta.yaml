@@ -1,5 +1,5 @@
 {% set name = "minitest" %}
-{% set version = "5.12.1" %}
+{% set version = "5.12.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 7dcf25e783421f1c437cfeaefda1e97739a5cfbdd2c6dc2cff26a39e92123851
+  sha256: 7c6e3c1a65d79fd3a5017e1d311d3f1ed8d39aa788b37a864d51901f1511557e
 
 build:
   noarch: generic
