@@ -1,5 +1,5 @@
 {% set name = "minitest" %}
-{% set version = "5.12.2" %}
+{% set version = "5.14.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 7c6e3c1a65d79fd3a5017e1d311d3f1ed8d39aa788b37a864d51901f1511557e
+  sha256: afdc52567e32e275f8e8f825437883803efac2f9658dce0c70ea75fbb54d7f25
 
 build:
   noarch: generic
@@ -31,7 +31,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking. 
+  summary: minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking.
 
   doc_url: https://www.rubydoc.info/gems/{{ name }}
   dev_url: https://github.com/seattlerb/{{ name }}
